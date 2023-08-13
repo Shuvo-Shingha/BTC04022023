@@ -1,0 +1,8 @@
+<suite name="Anything">
+	<test name="Anything">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.classname"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,16 @@
+<suite name="what" Parallel="tests">//Parallel built in annotaion testNg er
+	//Jodi onkgula test annotation thake(onk class onk test) "tests" dite hbe
+	//Jodi 2ta class parallely run krte hoi tahole "classes" hbe
+	//Jodi same class er method run krte hoi tahole "methods" dite hbe
+	<test name="Anything">
+		<classes>
+			<class name="com.ParallelTest"></class>
+		</classes>
+	</test>
+	
+	<test name="Anything">
+		<classes>
+			<class name="com.ParallelTest2"></class>
+		</classes>
+	</test>
+</suite>
