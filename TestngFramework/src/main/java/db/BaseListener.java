@@ -8,6 +8,7 @@ public class BaseListener implements ITestListener{//interface
 	
 	public void onTestStart(ITestResult result) {
 		System.out.println(result.getName()+ "is started");
+		System.out.println("Git Practice");
 		
 	}
 
